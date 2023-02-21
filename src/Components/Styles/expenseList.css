@@ -1,0 +1,41 @@
+#ExpenseListContainer{
+   
+    padding-bottom: 70px;
+}
+#ExpenseListItems{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    overflow: hidden;
+    width: 70%;
+    margin: auto;
+    border: solid #f23c91 2px;
+    margin-top: 0px;
+    border-radius: 0 0 12px 12px ;
+    
+}
+#ExpenseHeaderContainer{
+    color: white;
+    width: 70%;
+    margin-top: 20px;
+    margin: 30px auto 0 auto;
+    background-color: #f23c91;
+    padding: 10px;
+    border-radius: 12px 12px  0 0 ;
+}
+
+tr{
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 1fr 2fr;
+}
+
+#tableHead{
+    text-align: center;
+}
+
+h5{
+    color: '#f70776'; 
+    text-align:'center'; 
+    text-decoration:'underline';
+    padding: '20px';
+}
